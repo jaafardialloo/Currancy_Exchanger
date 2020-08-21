@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background: gray;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+.input {
+  border: 1px solid #333;
+  border-radius: .3em;
+  padding: .25rem;
+  width: 7em;
+}
+
+select {
+  margin-left: .5rem;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.header{
+  color:greenyellow;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+.logo img{
+  width: 250px;
+  height: 150px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.exchange{
+  display: flex;
+  -ms-flex-align: center;
+  justify-items: center;
+  margin-left: 100px;
+  justify-content: space-around;
+}
